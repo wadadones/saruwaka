@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#nav ul {
+			list-style-type: none;
+			 /*text-alignは親要素に対して適用*/
+			text-align: center;
+			/*ここにinline-blockいれてもだめ*/
+		}
+
+		#nav ul li {
+			width: 80px;
+			height: 40px;
+			line-height: 40px; /*一行の高さ*/
+			padding: 10px 0;
+			margin: 10px 0;
+			display: inline-block;
+			background: skyblue;
+			vertical-align: middle;
+			font-weight: bold;
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="nav">
+		<ul>
+			<li>HOME</li>
+			<li>HTML</li>
+			<li>CSS</li>
+		</ul>
+	</div>
+</body>
+</html>
