@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		a {
+			background: skyblue;
+		}
+
+		span {
+			background: orange;
+			width: 100px; /*inlineなので意味なし*/
+			height: 100px; /*inlineなので意味なし*/
+			padding: 0 30px; /*普通に効く。けど改行するとかぶるのであんまし使わん*/
+			margin: 0 30px; /*上下には効果なし(0を30にしても変わらん)*/
+			display: block
+		}
+
+		#example {
+
+		}
+	</style>
+</head>
+<body>
+	<p>これは<a href="https://saruwakakun.com/">aタグ</a>と<span>spanタグ</span>です</p>
+	<div id="example">
+		
+	</div>
+</body>
+</html>
