@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+</head>
+<style type="text/css">
+	.test1 { width: 200px; background: skyblue;}
+	.test2 { width: 100px; background: skyblue;}
+	.nomin { width: 50%; background: gray; height: 50%;}
+	.min { width: 50%; background: orange; min-width: 100px; height: 50%; }
+	div p { margin: 0; }
+
+	img {width: 100px;
+  height: auto;
+  max-width: 100%}
+</style>
+<body>
+  <p>↓親要素大きめの場合</p>
+  <div class="test1">
+      <p class="nomin">最小幅なし</p>
+      <p class="min">最小幅100px</p>
+  </div>
+  <p>↓親要素小さめの場合</p>
+  <div class="test2">
+    <p class="nomin">最小幅なし</p>
+    <p class="min">最小幅100px</p>
+  </div>
+
+  <p>
+  	<img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔（通常）"/>
+  </p>
+</body>
+
+</html>

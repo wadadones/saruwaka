@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>CSSの練習</title>
+	<style type="text/css">
+		body {
+			background: #fffbf4;
+			text-align: center;
+		}
+		h1 {
+			color: #f89174;
+		}
+
+		h2 {
+			color: orange;
+		}
+
+		#headline {
+			border-bottom: dotted 2px #f89174;
+		}
+
+		a {
+			color: gray;
+		}
+
+		.main p span {
+			color: orange;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.right {
+			text-align: right;
+		}
+
+		.solid {
+			border: solid 2px gray;
+		}
+
+		.dotted{ border: dotted 2px gray; }
+		.dashed{ border: dashed 2px gray; }
+		.double{ border: double 2px gray; }
+		.px1{ border: solid 1px gray; }
+
+
+	</style>
+</head>
+<body>
+	<div id="headline">
+		<h1>CSS入門</h1>
+
+	  <p>これは段落です</p>
+	</div>
+	<div class="main">
+		<h2>これは見出しです。</h2>
+		<p>これは<span>例</span>です。</p>
+		<p>
+			<a href="https://saruwakakun.com/">ホームへ</a>戻ります。
+		</p>
+	</div>
+
+
+	<p>CSS指定なしの文</p>
+	<p class="center">中央寄せの文</p>
+	<p class="right">右寄せの文</p>
+
+	<p class="solid">solid 2px grayの場合</p>
+	<p class="dotted">dotted 2px grayの場合</p>
+	<p class="dashed">dashed 2px grayの場合</p>
+	<p class="double">double 2px grayの場合</p>
+	<p class="px1">solid 1px orangeの場合</p>
+
+</body>
+</html>

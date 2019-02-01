@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.parent {
+			width: 100px;
+		}
+		/*div {
+			margin: 5px;
+		}*/
+		/*p {
+			background: orange;
+		}*/
+		.grandpa { width: 200px; background: gray; }
+		.parent2 { width: 50%; background: yellow; }
+		.parent2 p { width: 50%; background: orange;}
+		
+		#test { background: orange; /*height: auto;*/}
+		.test1 { background: gray }
+		.test2 { background: gray; height: 150px }
+		.test1 p { background: orange }
+		.test2 p { background: orange }
+
+
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<p>これは要素です</p>
+	</div>
+
+	<div class="grandpa">
+		<div class="parent2">
+			<p>これは要素です</p>
+		</div>
+	</div>
+
+	<div id="test">
+  	<p>子要素です。</p>
+  	<p><img src="https://saruwakakun.com/wp-content/uploads/2016/11/IMG_9164.jpeg" alt="サルワカくんの顔（通常）"/></p>
+	</div>
+
+	<p>親指定なし</p>
+	<div class="test1">
+		<p>要素</p>
+	</div>
+
+	<p>親指定あり</p>
+	<div class="test2">
+		<p>要素</p>
+	</div>
+</body>
+</html>
