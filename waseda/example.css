@@ -82,3 +82,24 @@ nav.navbar>li {
     float: left;
     margin-left: 20px;
 }
+
+.navbar-side {
+	z-index: 100;
+	width: 65px;
+	float: left;
+	color: #dadada;
+	font-size: 10px;
+	text-align: center;
+}
+
+.navbar-side nav {
+	list-style: none;
+}
+
+.navbar-side nav li {
+	background: #111;
+	height: 64px;
+	border-bottom: 1px solid #4d4d4d;
+
+
+}
