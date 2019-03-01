@@ -2,83 +2,7 @@
 <html>
 <head>
 	<title>早稲田大学</title>
-	<style type="text/css">
-		* {
-			box-sizing: border-box;
-		}
-		html {
-			font-family: sans-serif;
-		}
-		body {
-			margin: 0;
-		}
-		nav.navbar {
-			list-style: none;
-			float: right;
-			font-size: 7px;
-			text-align: center;
-			background: #666;
-			color: #dadada;
-		}
-		nav.navbar>li {
-			float: left;
-			border-left: 1px solid #4d4d4d;
-			width: 58px;
-			height: 56px;
-		}
-
-		.navbar-fluid {
-			background: #dadada;
-
-		}
-		.nn {
-			height: 56px;
-			background: #4d4d4d;
-		}
-		.wrap-main {
-			height: 200px;
-			background: #222;
-			color: #eee;
-			position: relative;
-
-		}
-
-		.front-cover-header {
-			margin: 0 0 0 24px;
-			padding-top: 24px;
-			font-size: 32px;
-		}
-
-		.front-cover-footer {
-			padding-top: 12px;
-			margin: 0 0 0 24px;
-		}
-
-		.front-cover {
-			display: inline-block;
-			position: relative; /*ここがポジションの起点になるのかな？*/
-			margin-top: 20px;
-
-		}
-
-		.front-cover-small {
-			position: absolute; /*ポジションの起点(relative)に対してどの位置にあるかを指定？*/
-			top: 0;
-			right: 0;
-			font-size: 15px;
-		}
-
-		.front-cover-nav>nav{
-			list-style: none;
-			float: right;
-			margin: 48px 20px 0 0;
-		}
-
-		.front-cover-nav>nav>li{
-			float: left;
-			margin-left: 20px;
-		}
-	</style>
+	<link rel="stylesheet" type="text/scss" href="./example.scss">
 </head>
 <body>
 	<div class="wrap-outer">
@@ -94,6 +18,15 @@
 					</nav>
 				</div>
 			</div>
+		</div>
+		<div class="navbar-side">
+			<nav class="navbar">
+				<li>News</li>
+				<li>About Waseda</li>
+				<li>Academics</li>
+				<li>Campus Life</li>
+				<li>Research</li>
+			</nav>
 		</div>
 		<div class="wrap-main">
 			<div class="front-cover">

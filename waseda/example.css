@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav.navbar {
+    list-style: none;
+    float: right;
+    font-size: 7px;
+    text-align: center;
+    background: #666;
+    color: #dadada;
+}
+
+nav.navbar>li {
+    float: left;
+    border-left: 1px solid #4d4d4d;
+    width: 58px;
+    height: 56px;
+}
+
+.navbar-fluid {
+    background: #dadada;
+
+}
+
+.nn {
+    height: 56px;
+    background: #4d4d4d;
+}
+
+.wrap-main {
+    height: 200px;
+    background: #222;
+    color: #eee;
+    position: relative;
+    margin-left: 65px;
+
+}
+
+.front-cover-header {
+    margin: 0 0 0 24px;
+    padding-top: 24px;
+    font-size: 32px;
+}
+
+.front-cover-footer {
+    padding-top: 12px;
+    margin: 0 0 0 24px;
+}
+
+.front-cover {
+    display: inline-block;
+    position: relative;
+    /*ここがポジションの起点になるのかな？*/
+    margin-top: 20px;
+
+}
+
+.front-cover-small {
+    position: absolute;
+    /*ポジションの起点(relative)に対してどの位置にあるかを指定？*/
+    top: 0px;
+    right: 0px;
+    font-size: 15px;
+}
+
+.front-cover-nav>nav {
+    list-style: none;
+    float: right;
+    margin: 48px 20px 0 0;
+}
+
+.front-cover-nav>nav>li {
+    float: left;
+    margin-left: 20px;
+}
