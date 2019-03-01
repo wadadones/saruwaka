@@ -19,11 +19,12 @@ nav.navbar {
     color: #dadada;
 }
 
-nav.navbar>li {
+nav.navbar li {
     float: left;
     border-left: 1px solid #4d4d4d;
     width: 58px;
     height: 56px;
+    padding: 5px;
 }
 
 .navbar-fluid {
@@ -72,13 +73,13 @@ nav.navbar>li {
     font-size: 15px;
 }
 
-.front-cover-nav>nav {
+.front-cover-nav nav {
     list-style: none;
     float: right;
     margin: 48px 20px 0 0;
 }
 
-.front-cover-nav>nav>li {
+.front-cover-nav nav li {
     float: left;
     margin-left: 20px;
 }
@@ -100,6 +101,7 @@ nav.navbar>li {
 	background: #111;
 	height: 64px;
 	border-bottom: 1px solid #4d4d4d;
+	padding: 10px;
 
 
 }
